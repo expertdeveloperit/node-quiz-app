@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Which of the following module is required to create a child process?",
+    "options": [
+      "process_module",
+      "child_process module",
+      "child module",
+      "web module"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which of following command starts a REPL session?",
+    "options": [
+      "$ node",
+      "$node start",
+      "$ node repl",
+      "$ node console"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is true about EventEmitter.on property?",
+    "options": [
+      "on property is used to fire event.",
+      "on property is used to bind a function with the event.",
+      "on property is used to locate an event handler.",
+      "None of the above."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which method of fs module is used to open a file?",
+    "options": [
+      "fs.open(path, flags[, mode], callback)",
+      "fs.openFile(path, flags[, mode], callback)",
+      "fs.openPath(path, flags[, mode], callback)",
+      "None of the above."
+    ],
+    "answer": 1
+  }
+]

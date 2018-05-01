@@ -1,0 +1,52 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #fff;
+	font-weight: 300;
+}
+.radio {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.radio label {
+    min-height: 50px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 18px;
+}
+.quizMain{
+    text-align: center;
+    margin: 50px 0;
+}
+.buttonStart{
+    display: flex;
+    justify-content: center;
+}
+.quizMain h1 {
+    color: #207dde;
+}
+
+.buttonStart a.btn-primary {
+    padding:  10px 20px;
+    border: 1px solid #9a8d8d;
+    border-radius: 5px;
+    font-size:  18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 1;
+    box-shadow: 1px 1px 60px 0px #b7aeae;
+}
+.quizForm{
+    margin: 50px 0;
+}
+.col-xs-12.score {
+    margin:  50px 0;
+}
+
+.footerStand {
+    position: fixed;
+    bottom: 30px;
+    left:45%;
+    font-size: 16px;
+}

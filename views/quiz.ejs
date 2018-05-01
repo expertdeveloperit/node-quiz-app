@@ -1,0 +1,20 @@
+<% include ./header.ejs %>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 quizForm">
+				<form method="post" action="/quiz/next">
+					<div class="form-control">
+						<label><%= question %></label>
+						<div class="radio">
+							<% options.forEach(function(option,index){ %>
+							<label class="radio">
+							 <input required  type="radio" name="optradio" value=<%= index + 1 %>><%= option %></label>
+							<% })%>
+						</div>
+						<input type="submit" class="btn btn-success" value="Next">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+<% include ./footer.ejs %>
